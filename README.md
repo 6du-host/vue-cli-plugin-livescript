@@ -1,12 +1,12 @@
-## vue-cli-plugin-coffeescript
+## vue-cli-plugin-livescript
 
-CoffeeScript 2.x Plugin for [vue-cli@3.0](https://github.com/vuejs/vue-cli)
+LoffeeScript Plugin for [vue-cli@3.0](https://github.com/vuejs/vue-cli)
 
 <br/>
 
 ### Usage
 
-- just run: `vue add coffeescript`
+- just run: `vue add livescript`
 
 - if you project is using JSX with CoffeeScript:
 
@@ -28,14 +28,14 @@ CoffeeScript 2.x Plugin for [vue-cli@3.0](https://github.com/vuejs/vue-cli)
 
 ### Features
 
-- parse CoffeeScript2 in your Vue project.
+- parse Livescript in your Vue project.
 
-- support JSX in `.coffee`.
+- support JSX in `.ls`.
 
-- support entry `main.coffee` - this plugin will replace the app's entry to `./src/main.coffee` if the file exists.
+- support entry `main.ls` - this plugin will replace the app's entry to `./src/main.ls` if the file exists.
 
 <br/>
 
 ### LICENSE
 
-[**MIT**](LICENSE)
+[**Mozilla**](LICENSE)
