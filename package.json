@@ -1,11 +1,11 @@
 {
   "name": "vue-cli-plugin-livescript",
-  "description": "CoffeeScript for use with @vue/cli 3.0",
+  "description": "livescript for use with @vue/cli 3.0",
   "version": "0.0.3",
-  "author": "thisredoned@gmail.com",
+  "author": "6du@protonmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thisredone/vue-cli-plugin-coffeescript"
+    "url": "https://github.com/6du-host/vue-livescript-loader"
   },
   "devDependencies": {
     "vue-livescript-loader": "^0.0.1",
