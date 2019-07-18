@@ -11,7 +11,7 @@ module.exports = function(api){
       module: {
         rules: [{
           test: /\.ls$/,
-          loader: 'babel-loader!vue-livescript-loader'
+          loader: 'babel-loader!6du-livescript-loader'
         }]
       }
     };
