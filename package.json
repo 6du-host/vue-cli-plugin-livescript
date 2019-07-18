@@ -8,7 +8,7 @@
     "url": "https://github.com/6du-host/vue-livescript-loader"
   },
   "devDependencies": {
-    "6du-livescript-loader": "^0.0.1",
+    "6du-livescript-loader": "^0.0.3",
     "livescript": "^1.6.0"
   },
   "scripts": {
