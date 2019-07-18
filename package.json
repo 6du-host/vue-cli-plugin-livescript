@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-livescript",
   "description": "livescript for use with @vue/cli 3.0",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "author": "6du@protonmail.com",
   "repository": {
     "type": "git",
