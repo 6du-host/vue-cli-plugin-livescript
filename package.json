@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli-plugin-coffeescript",
+  "name": "vue-cli-plugin-livescript",
   "description": "CoffeeScript for use with @vue/cli 3.0",
   "version": "0.0.3",
   "author": "thisredoned@gmail.com",
@@ -8,9 +8,10 @@
     "url": "https://github.com/thisredone/vue-cli-plugin-coffeescript"
   },
   "devDependencies": {
-    "coffeescript": "^2.3.2"
+    "vue-livescript-loader": "^0.0.1",
+    "livescript": "^1.6.0"
   },
   "scripts": {
-    "prepublishOnly": "coffee -cbo . src"
+    "prepublishOnly": "lsc -cbo . src"
   }
 }

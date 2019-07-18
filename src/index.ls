@@ -4,17 +4,17 @@ module.exports = (api) ->
   api.configureWebpack ->
     additions =
       resolve:
-        extensions: ['.coffee']
+        extensions: ['.ls']
       module:
         rules: [
           {
-            test: /\.coffee$/
-            loader: 'babel-loader!coffee-loader'
+            test: /\.ls$/
+            loader: 'babel-loader!vue-livescript-loader'
           }
         ]
 
-    if fs.existsSync api.resolve('./src/main.coffee')
+    if fs.existsSync api.resolve('./src/main.ls')
       additions.entry =
-        app: './src/main.coffee'
+        app: './src/main.ls'
 
     additions
